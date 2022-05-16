@@ -1,0 +1,74 @@
+challange:
+1. when the width of container is not fit.
+2. if sum of the link width (on big screen) is more than the remaining width before it wraps, it should add some feature like << >>. and you can actively move that. or the feature to  (draggable element)
+
+header ?
+  nav.nav-bar(toggle: ".fixed-nav-bar)) (flex) 
+    div.nav 
+    img.logo
+    toggle-link-logo
+  div.links-container(toggle: ".collapse-links") (flex: column)
+    li (attr: href, class, id?)
+    li 
+    ...
+  div.banner
+    h1
+    p
+    li
+  section 
+  
+  
+
+
+nav (id="nav")
+#nav (padding, background-color, position)
+
+
+
+@media
+#nav
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+too much variable:
+element.getBoundingClientRect() -> computed position of the element
+element.offsetHeight/width -> how much space does the element take?
+element.clientHeight/Width -> without border
+element.scrollHeight/Width -> entire element, including nonvisiblepart
+element.scrollLeft/Top -> how much pixel already scrolled
+
+mouseEvent.clientX/Y -> relative to current window
+mouseEvent.pageX/Y -> relative to document
+mouseEvent.offsetX -> relative to topleft element!!
+
+
+
+
+    
+    
+    
+    

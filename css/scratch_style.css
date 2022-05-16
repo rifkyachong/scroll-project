@@ -1,0 +1,7 @@
+.flex-cont {
+  display: flex;
+}
+
+.flex-cont * {
+  width: 200px;
+}
